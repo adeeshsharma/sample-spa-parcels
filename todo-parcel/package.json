@@ -1,0 +1,29 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "A Single-SPA parcel app that can be used in a React host",
+  "main": "src/parcel.js",
+  "scripts": {
+    "start": "webpack serve --open", 
+    "build": "webpack", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "single-spa",
+    "parcel",
+    "microfrontends"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "single-spa": "^6.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
